@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* style.css */
 
 body {
@@ -49,3 +50,56 @@ a:hover {
     background-color: #80CED7; /* Change background on hover */
     color: #fff; /* Change text color on hover */
 }
+=======
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px; /* Limit the width */
+    margin: auto; /* Center the container */
+    background-color: #ffffff; /* White background for the box */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the title */
+    color: #007EA7; /* Custom color for the title */
+}
+
+p {
+    text-align: center; /* Center the paragraph */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin: 10px 0; /* Space between items */
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #007EA7; /* Link color */
+    padding: 10px;
+    display: block; /* Make the link a block element */
+    border: 2px solid #007EA7; /* Border around link */
+    border-radius: 5px; /* Rounded corners for the link */
+    transition: background-color 0.3s, color 0.3s; /* Transition effects */
+}
+
+a:hover {
+    background-color: #80CED7; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+>>>>>>> main
