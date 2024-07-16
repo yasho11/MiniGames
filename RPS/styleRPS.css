@@ -1,0 +1,77 @@
+/* styleRPS.css */
+
+body {
+    background-color: #007EA7; /* Background color */
+    color: #FFFFFF; /* Default text color */
+    font-family: Arial, sans-serif;
+}
+
+.title-text {
+    color: #CCDBDC; /* Title color */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-text {
+    color: #CCDBDC; /* Item text color */
+    text-align: center;
+}
+
+#options-block {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttonchoice button {
+    background-color: #80CED7; /* Button color */
+    color: #003249; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buttonchoice button:hover {
+    background-color: #9AD1D4; /* Hover color */
+}
+
+.show-results {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.show-results h2 {
+    color: #CCDBDC; /* Results text color */
+}
+
+#game-option {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#game-option a {
+    background-color: #80CED7; /* Button color */
+    color: #003249; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+#game-option a:hover {
+    background-color: #9AD1D4; /* Hover color */
+}
+
+#score {
+    color: #FFDF6D; /* Score color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
