@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #007ea7;
+    color: antiquewhite;
+}
+#button 
+{
+    background-color: #80CED7; /* Button color */
+    color: #003249; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+#message-box 
+{
+    display: none;
+
+}
